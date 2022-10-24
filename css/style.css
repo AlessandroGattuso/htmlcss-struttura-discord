@@ -27,7 +27,7 @@
 /* Header */
 header{
   background-color: lightblue;
-  height: 50px;
+  height: 60px;
 }
 
 header .row{
@@ -41,7 +41,7 @@ header .row{
 
 nav{
   background-color: orange;
-  padding: 3px;
+  padding: 5px;
   column-gap: 20px;
   width: 60%;
   display: flex;
@@ -51,7 +51,7 @@ nav{
 
 header .col-sm{
   background-color: orange;
-  padding: 3px;
+  padding: 5px;
   width: 20%;
 }
 
@@ -149,8 +149,8 @@ footer nav{
 }
 
 .label{
-  padding: 3px;
+  padding: 2px 8px;
   font-size: 12px;
-  background-color: rgb(255, 156, 179);
+  background-color: rgb(255, 178, 196);
 }
 /*<------>*/
