@@ -14,6 +14,10 @@
   .bg-blue{
     background-color: rgb(0, 0, 148);
   }
+
+  .bg-gray{
+    background-color: rgb(197, 197, 197);
+  }
 /*<----->*/
 
 /* Header */
@@ -51,13 +55,33 @@ header .col-sm{
 
 /* Main */
 main section{
-  height: 300px;
+  height: 370px;
+}
+
+main .row{
+  width: 70%;
+  margin: 0 auto;
+  height: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .pink-card{
-  
+  background-color: rgb(255, 121, 246);
+  width: 65%;
+  height: 80%;
+}
+
+main .col-large{
+  height: 80%;
+  width: 70%;
+  background-color: lightskyblue;
+}
+
+main .col-sm{
+  height: 80%;
+  width: 30%;
+  background-color: pink;
 }
 /*<------>*/
