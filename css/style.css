@@ -67,7 +67,7 @@ header .col-sm{
 /*<------>*/
 
 /* Main */
-main section{
+.container{
   height: 360px;
 }
 
@@ -92,7 +92,7 @@ main .col-sm{
   background-color: pink;
 }
 
-.section-larger{
+.container-lg{
   height: 550px;
 }
 
@@ -104,25 +104,25 @@ main .col-sm{
 }
 
 /* main footer*/
-[role="main-footer"]{
+.main-footer{
   background-color: rgb(37, 37, 37);
 }
 
-[role="main-footer"] .row{
+.main-footer .row{
   padding-bottom: 20px;
 }
 
-[role="main-footer"] .col-lg{
+.main-footer .col-lg{
   border: 1px dashed black;
   height: 95%;
   width: 35%;
   background-color:rgb(237, 45, 77);
 }
 
-[role="main-footer"] .col-sm{
+.main-footer .col-sm{
   border: 1px dashed white;
   height: 95%;
-  width: 20%;
+  width: 16.25%;
   background-color: lightseagreen;
 }
 /*<---------->*/
